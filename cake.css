@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #f8f8f8; */
+    color: #333;
+} 
+header {
+    position: relative;
+    background-image: url('https://img.freepik.com/free-vector/glaze-flavorful-pink-doughnut-background_23-2148268904.jpg?t=st=1720533797~exp=1720537397~hmac=17426b8f6fe76697ce671fda3071bb4904f7512cba736944bdcc7ac9d2cbe500&w=996');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.hero {
+    background-image: url('images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0 0;
+}
+
+nav {
+    background-color: #d21ec6;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+section:hover{
+    cursor: pointer;
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    color: #470147;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin: 0 0 2rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item-info {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.item-info h3 {
+    margin: 0.5rem 0;
+    color: #4a004a;
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    background-color: #ed48ca;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer h1{
+    font-family:'Playfair Display', serif; 
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+    .menu-item {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .menu-item img {
+        max-width: 200px;
+        margin-right: 2rem;
+    }
+}
